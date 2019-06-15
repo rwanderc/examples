@@ -5,10 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wandercosta.examples</groupId>
-    <artifactId>examples-parent</artifactId>
+    <artifactId>spring-boot</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>Multiple Examples</description>
+    <description>SpringBoot Examples</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+        <relativePath/>
+    </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,8 +25,8 @@
     </properties>
 
     <modules>
-        <module>string-generator</module>
-        <module>spring-boot</module>
-        <module>jersey</module>
+        <module>spring-boot-jpa-cache-swagger</module>
     </modules>
+
 </project>
+
