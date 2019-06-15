@@ -15,7 +15,7 @@
     <description>Jersey Examples</description>
 
     <modules>
-        <module>book-store</module>
+        <module>jersey-book-store</module>
     </modules>
 
 </project>
