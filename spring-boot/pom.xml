@@ -25,6 +25,7 @@
     </properties>
 
     <modules>
+        <module>spring-boot-first-app</module>
         <module>spring-boot-jpa-cache-swagger</module>
     </modules>
 
